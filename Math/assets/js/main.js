@@ -96,7 +96,7 @@ function hitung() {
   hasilBox.innerText = `Hasil : ${hasil}`;
 }
 
-/* ===================== FUNGSI SUBNETTING ====================== */
+
 
 function ipToInt(ip) {
   const parts = ip.split('.').map(Number);
@@ -180,3 +180,4 @@ function hitungSubnet() {
 
   hasilDiv.innerHTML = html;
 }
+
